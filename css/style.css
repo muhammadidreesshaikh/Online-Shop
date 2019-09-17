@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body
+{
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    margin-bottom: 0 auto;
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+.all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.top-bar
+{
+    padding: 15px;
+    background-color: white;
+}
+
+.top-bar .logo
+{
+    
+}
+
+.top-bar .logo img
+{
+    width: 15%;
+}
+
+.top-bar .logo a
+{
+    font-size: 25px;
+    padding-left: 5px;
+    font-family: serif;
+    color: black;
+    font-weight: 700;
+}
+
+.top-bar .nav 
+{
+    float: right;
+    padding-top: 8px;
+}
+
+.top-bar .nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.top-bar .nav li a
+{
+    color: black;
+    font-size: 17px;
+    padding: 27px 25px 33px 25px;
+}
+
+.top-bar .nav li a:hover
+{
+    background-color: #2092f5;
+    border-radius: 4px; 
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.top-bar .btn1
+{
+    margin-left: 15px;
+}
+
+.top-bar .btn1 a
+{
+    border: 2px solid #2092f5;
+    border-radius: 50px;
+    padding: 5px 25px 5px 25px;
+    color: black;
+    font-size: 17px;
+}
+
+.top-bar .btn1 a:hover
+{
+    background-color: #2092f5;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
+/* dropdown buttn */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+   .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+    .parent li>a:hover  .dropdown-content {display: block;}
+
+    .sidenav 
+    {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+    .sidenav a 
+    {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+      
+    .sidenav a:hover 
+    {
+        color: orange;
+    }
+      
+    .sidenav .closebtn 
+    {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+    .mobile-nav
+    {
+        display: none;
+    }  
+    
+      
+    .openbtn, .closebtn
+    {
+        cursor: pointer;
+        font-size: 35px;
+    }
+    
+    .openbtn
+    {
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        z-index: 1;
+        display: none;
+    }
+
+    .top-bar .mobile-nav .icon1
+    {
+        padding-top: 10%;
+        display: flex;
+        padding-left: 17%;
+    }
+
+    .top-bar .mobile-nav .icon1 i
+    {
+        font-size: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px)
+{
+
+}
+
+@media screen and (max-width: 1366px)
+{
+    .top-bar .nav li a
+    {
+        font-size: 15px;
+        padding: 27px 20px 33px 20px;
+    }
+
+    .top-bar .btn1
+    {
+        margin-left: 13px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .top-bar .nav li a
+    {
+        font-size: 15px;
+        padding: 27px 10px 33px 10px;
+    }
+
+    .top-bar .btn1
+    {
+        margin-left: 10px;
+    }
+
+    .top-bar .btn1 a
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .top-bar .logo
+    {
+        display: block;
+        margin: auto;
+    }
+
+    .openbtn
+    {
+        display: block;
+    }
+
+    .mobile-nav
+    {
+        display: block;
+    }
+
+    .top-bar .nav
+    {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 425px)
+{
+    
+}
+
+@media screen and (max-width: 375px)
+{
+    
+}
