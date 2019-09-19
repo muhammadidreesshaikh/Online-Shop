@@ -212,10 +212,178 @@ a{
     width: 100%;
     height: 80vh;
     background-size: cover;
+    background-position: center
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-color: #292929;
 }
+
+.promo
+{
+    padding: 20px 0;
+    background-color: white;
+}
+
+.promo .blue i
+{
+    font-size: 17px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    color: blue;
+}
+
+.promo .blue  a
+{
+    padding-left: 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.promo .blue i:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.promo .blue a:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: blue;
+}
+
+.promo .green i
+{
+    font-size: 17px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    color: green;
+}
+
+.promo .green a
+{
+    padding-left: 14px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.promo .green i:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.promo .green a:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: green;
+}
+
+.promo .pink i
+{
+    font-size: 17px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    color:rgb(248, 37, 108);
+}
+
+.promo .pink a
+{
+    padding-left: 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.promo .pink i:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.promo .pink a:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    color:rgb(248, 37, 108);
+}
+
+.promo .skyblue i
+{
+    font-size: 17px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    color: rgb(9, 150, 245);
+}
+
+.promo .skyblue a
+{
+    padding-left: 12px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.promo .skyblue i:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.promo .skyblue a:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: rgb(9, 150, 245);
+}
+
+.promo .orange i
+{
+    font-size: 17px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    color: orangered;
+}
+
+.promo .orange a
+{
+    padding-left: 11px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.promo .orange i:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.promo .orange a:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: orangered;
+}
+
+/* .promo a
+{
+    padding-left: 15px;
+    color: black;
+} */
 
 
 
@@ -267,6 +435,65 @@ a{
     {
         font-size: 13px;
     }
+
+    .promo
+    {
+        padding: 25px 13%;
+        text-align: center;
+    }
+
+    .promo .blue i
+    {
+        padding: 5px 13px 5px 13px;
+    }
+
+    .promo .green i
+    {
+        padding: 5px 13px 5px 13px;
+    }
+
+    .promo .pink i
+    {
+        padding: 5px 13px 5px 13px;
+    }
+
+    .promo .skyblue i
+    {
+        padding: 5px 13px 5px 13px;
+    }
+
+    .promo .orange i
+    {
+        padding: 5px 13px 5px 13px;
+    }
+
+    .promo .blue a
+    {
+        font-size: 18px;
+    }
+
+    .promo .green a
+    {
+        font-size: 18px;
+    }
+
+    .promo .pink a
+    {
+        font-size: 18px;
+    }
+
+    .promo .skyblue a
+    {
+        font-size: 18px;
+    }
+
+    .promo .orange a
+    {
+        font-size: 18px;
+    }
+
+
+    
 }
 
 @media screen and (max-width: 600px)
@@ -291,6 +518,38 @@ a{
     {
         display: none;
     }
+
+    .promo
+    {
+        padding: 10% 0 10% 0;
+        text-align: center;
+    }
+
+    .promo .blue a
+    {
+        font-size: 20px;
+    }
+
+    .promo .green a
+    {
+        font-size: 20px;
+    }
+
+    .promo .pink a
+    {
+        font-size: 20px;
+    }
+
+    .promo .skyblue a
+    {
+        font-size: 20px;
+    }
+
+    .promo .orange a
+    {
+        font-size: 20px;
+    }
+
 
     
 }
