@@ -459,11 +459,6 @@ a{
     padding: 5px 0 20px 0;
 }
 
-.collection .collect
-{
-    
-}
-
 .collection .collect h6
 {
     font-size: 20px;
@@ -483,11 +478,6 @@ a{
     opacity: 0.5s;
     transition: 0.5s;
     color: black;
-}
-
-.collection .collect i
-{
-    
 }
 
 .collection .product
@@ -526,11 +516,6 @@ a{
     box-shadow: 3px 3px 5px grey;
     opacity: 0.5s;
     transition: 0.5s;
-}
-
-.collection .product .collection-product
-{  
-
 }
 
 .collection .product .collection-product .wrapper1
@@ -757,6 +742,11 @@ a{
     .items .online .heading1 h6
     {
         font-size: 17px;
+    }
+
+    .collection
+    {
+        display: none;
     }
 
 
