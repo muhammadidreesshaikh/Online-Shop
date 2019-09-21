@@ -403,7 +403,6 @@ a{
     opacity: 0.5s;
     transition: 0.5s;
     color: black;
-    
 }
 
 .items .online
@@ -553,6 +552,13 @@ a{
     padding: 10px 0px 10px 0px;
 }
 
+.Categories .card-categories .img1:hover
+{
+    box-shadow: 2px 3px 3px gray;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
 
 .Categories .card-categories .img1 img
 {
@@ -574,6 +580,122 @@ a{
     color: black;
     margin-bottom: 0;
 }
+
+.just
+{
+    padding: 10px 0 20px 0;
+}
+
+.just .heading2
+{
+    
+}
+
+.just .heading2 h6
+{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.just .content 
+{
+    padding-top: 10px;
+}
+
+.just .content .imgs2
+{
+    background-color: white;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 4px 10px 4px;
+}
+
+.just .content .imgs2 img
+{
+    width: 100%;
+    height: 160px;
+}
+
+.just .imgs2 .head
+{
+    padding-top: 20%;
+}
+
+.just .imgs2 .head h6
+{
+    font-size: 17px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.just .imgs2 .head .price
+{
+    padding-top: 15px;
+}
+
+.just .imgs2 .head .price h6 
+{
+    font-size: 18px;
+    margin-bottom: 0;
+    color: blue;
+}
+
+.just .imgs2 p
+{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;;
+}
+
+.just .imgs2 p span
+{
+    padding-top: 1px;
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.just .imgs2 .head .rating 
+{
+    padding-top: 5px;
+}
+
+.just .imgs2 .head .rating span
+{
+    color: gray;
+}
+
+.just .imgs2 .head .rating .checked 
+{
+    color: orange;
+}
+
+.just .btn2
+{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.just .btn2 a
+{
+    color: blue;
+    font-size: 19px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 5px 40px 5px 40px;
+}
+
+.just .btn2 a:hover
+{
+    background-color: #2092f5;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
 
 
 
@@ -699,6 +821,11 @@ a{
         font-size: 12px;
     }
 
+    .just .imgs2 .head .rating span
+    {
+        font-size: 12px;
+    }
+
 
     
 }
@@ -805,6 +932,11 @@ a{
     .Categories .card-categories .img1
     {
         margin: 0px -28px 5px 1px;
+    } 
+
+    .just .content .imgs2 img
+    {
+        height: auto;
     }
 
 
