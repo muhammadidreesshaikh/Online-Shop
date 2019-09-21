@@ -528,6 +528,54 @@ a{
     width: 100%;
 }
 
+.Categories 
+{
+    padding: 5px 0 20px 0;
+}
+
+.Categories .cate h6
+{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.Categories .card-categories
+{
+    padding-top: 15px;
+}
+
+
+.Categories .card-categories .img1
+{
+    margin: 0px -28px 3px 1px;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.Categories .card-categories .img1 img
+{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.Categories .card-categories .text1
+{
+    padding-top: 10px;
+}
+
+
+.Categories .card-categories .text1 p
+{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    margin-bottom: 0;
+}
+
+
 
 
 
@@ -747,6 +795,16 @@ a{
     .collection
     {
         display: none;
+    }
+
+    .Categories
+    {
+        padding: 15px 0 20px 0;
+    }
+
+    .Categories .card-categories .img1
+    {
+        margin: 0px -28px 5px 1px;
     }
 
 
