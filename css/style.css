@@ -875,6 +875,72 @@ a{
     transition: 0.5s;
 } */
 
+.footer-second
+{
+    padding: 3% 0;
+    background-color: white;
+}
+
+.footer-second .footer-inner .payment h5
+{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.footer-second .footer-inner .payment img
+{
+    width: 14%;
+    background-color: #d4d4d4;
+    margin: 5px 3px 0 3px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.footer-second .footer-inner .international h5
+{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.footer-second .footer-inner .international img
+{ 
+    width: 15%;
+    margin: 5px 2px 0px 2px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.footer-second .footer-inner .follow h5
+{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.footer-second .footer-inner .follow i
+{
+    font-size: 30px;
+    margin: 5px 2px 0px 2px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 5px grey;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    border: 2px solid gray;
+}
+
+.footer-second .footer-inner .follow i:hover
+{
+    background-color: black;
+    color: orangered;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
 
 
 
@@ -912,6 +978,11 @@ a{
     .top-bar .btn1
     {
         margin-left: 13px;
+    }
+
+    .footer-second .footer-inner .follow i
+    {
+        font-size: 20px;
     }
 }
 
@@ -1008,6 +1079,17 @@ a{
     .footer-first .footer2
     {
         padding-top: 50%;
+    }
+
+    .footer-second .footer-inner .payment img
+    {
+        width: 13%;
+    }
+
+    .footer-second .footer-inner .follow i
+    {
+        font-size: 12px;
+        padding: 4px 3px 4px 3px;
     }
 
 
@@ -1191,6 +1273,21 @@ a{
     .footer-first .app-dowload a img
     {
         width: 30%;
+    }
+
+    .footer-second
+    {
+        padding: 10% 0;
+    }
+
+    .footer-second .footer-inner .international
+    {
+        margin-top: 10%;
+    }
+
+    .footer-second .footer-inner .follow
+    {
+        margin-top: 10%;
     }
 
 
