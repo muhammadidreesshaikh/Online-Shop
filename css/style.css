@@ -30,11 +30,9 @@ a{
 {
     padding: 15px;
     background-color: white;
-}
-
-.top-bar .logo
-{
-    
+    position: fixed;
+    z-index: 3;
+    width: 100%;
 }
 
 .top-bar .logo img
@@ -940,6 +938,99 @@ a{
     transition: 0.5s;
 }
 
+.footer-third
+{
+    padding: 3% 0;
+    background-color: #f1f1f1;
+}
+
+.footer-third .third-main .one h6
+{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.footer-third .third-main .one h5
+{
+    padding-top: 20px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.footer-third .third-main .one p
+{
+    color: #888;
+    margin-bottom: 0;
+    font-size: 11px;
+    padding-top: 5%
+}
+
+.footer-third .third-main .one b
+{
+    color: black;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.footer-third .third-main .two p
+{
+    color: #888;
+    margin-bottom: 0;
+    font-size: 11px;
+    padding-top: 5%
+}
+
+.footer-third .third-main .two b
+{
+    color: black;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.footer-third .third-main .three h6
+{
+    color: black;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.footer-third .third-main .three h4
+{
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.footer-third .third-main .three a
+{
+    color: #888;
+    font-size: 12px;
+}
+
+.footer-third .third-main .three a:hover
+{
+    color: orangered;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.footer-third .third-main .four h4
+{
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+
+.footer-third .third-main .four p
+{
+    color: #888;
+    margin-bottom: 0;
+    font-size: 11px;
+    padding-top: 5%;
+}
+
 
 
 
@@ -1290,8 +1381,6 @@ a{
         margin-top: 10%;
     }
 
-
-    
 }
 
 @media screen and (max-width: 425px)
