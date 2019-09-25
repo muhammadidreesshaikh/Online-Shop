@@ -26,6 +26,21 @@ a{
     text-decoration: none !important;
 }
 
+.loader
+{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.loader.hide
+{
+    display: none;
+}
+
 .top-bar
 {
     padding: 15px;
@@ -210,12 +225,12 @@ a{
 .slider .slide
 {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
-    background-position: center
-    background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-color: #292929;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .promo
@@ -1031,6 +1046,20 @@ a{
     padding-top: 5%;
 }
 
+.last-bar
+{
+    background-color: black;
+    padding: 15px 0;
+}
+
+.last-bar p
+{
+    color: orange;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 
 
 
@@ -1182,6 +1211,12 @@ a{
         font-size: 12px;
         padding: 4px 3px 4px 3px;
     }
+
+    .footer-third
+    {
+        display: none;
+    }
+
 
 
     
@@ -1379,6 +1414,11 @@ a{
     .footer-second .footer-inner .follow
     {
         margin-top: 10%;
+    }
+
+    .footer-third
+    {
+        display: none;
     }
 
 }

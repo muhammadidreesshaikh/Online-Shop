@@ -1,3 +1,10 @@
+var loaderArea = document.querySelector('.loader');
+
+setTimeout(function(){ 
+    // loaderArea.style.display = "none";
+    loaderArea.classList.add('hide');
+}, 2000);
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
 }
